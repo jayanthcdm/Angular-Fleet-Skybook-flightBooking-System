@@ -1,0 +1,96 @@
+.app-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 12px rgba(13, 71, 161, 0.2);
+  background: linear-gradient(135deg, #0d47a1, #1565c0) !important;
+  color: white !important;
+  padding: 0 1rem;
+}
+
+.toolbar-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.brand-link {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 1.35rem;
+  letter-spacing: -0.5px;
+  transition: opacity 0.2s;
+
+  &:hover {
+    opacity: 0.9;
+  }
+
+  .brand-icon {
+    font-size: 1.6rem;
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+}
+
+.toolbar-spacer {
+  flex: 1 1 auto;
+}
+
+.nav-links {
+  display: flex;
+  gap: 0.5rem;
+
+  a[mat-button] {
+    color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+
+    mat-icon {
+      font-size: 1.2rem;
+      width: 1.2rem;
+      height: 1.2rem;
+      margin-right: 4px;
+    }
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.12);
+      color: white;
+    }
+
+    &.active-link {
+      background: rgba(255, 255, 255, 0.22);
+      color: white;
+    }
+  }
+
+  .admin-link {
+    background: rgba(255, 193, 7, 0.2);
+    color: #ffecb3 !important;
+
+    &:hover {
+      background: rgba(255, 193, 7, 0.35) !important;
+    }
+  }
+}
+
+.main-content {
+  min-height: calc(100vh - 64px);
+  background: #f8fafc;
+  padding-bottom: 3rem;
+}
+
+@media (max-width: 600px) {
+  .nav-links a[mat-button] span {
+    display: none;
+  }
+}

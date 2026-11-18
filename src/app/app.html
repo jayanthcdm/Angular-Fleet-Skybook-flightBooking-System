@@ -1,0 +1,31 @@
+<mat-toolbar color="primary" class="app-toolbar">
+  <div class="toolbar-container">
+    <a routerLink="/" class="brand-link">
+      <mat-icon class="brand-icon">flight_takeoff</mat-icon>
+      <span class="brand-name">SkyBook</span>
+    </a>
+
+    <span class="toolbar-spacer"></span>
+
+    <nav class="nav-links">
+      <a mat-button routerLink="/search" routerLinkActive="active-link">
+        <mat-icon>search</mat-icon>
+        <span>Search Flights</span>
+      </a>
+      <a mat-button routerLink="/bookings" routerLinkActive="active-link">
+        <mat-icon>confirmation_number</mat-icon>
+        <span>My Bookings</span>
+      </a>
+      @if (auth.isAdmin()) {
+        <a mat-button routerLink="/admin" routerLinkActive="active-link" class="admin-link">
+          <mat-icon>admin_panel_settings</mat-icon>
+          <span>Admin</span>
+        </a>
+      }
+    </nav>
+  </div>
+</mat-toolbar>
+
+<main class="main-content">
+  <router-outlet />
+</main>

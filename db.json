@@ -1,0 +1,1745 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@skybook.com",
+      "password": "admin123",
+      "name": "Admin User",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "email": "demo@skybook.com",
+      "password": "demo123",
+      "name": "Demo User",
+      "role": "customer"
+    }
+  ],
+  "airports": [
+    {
+      "id": 1,
+      "code": "DEL",
+      "name": "Indira Gandhi International Airport",
+      "city": "New Delhi",
+      "country": "India"
+    },
+    {
+      "id": 2,
+      "code": "BOM",
+      "name": "Chhatrapati Shivaji Maharaj International Airport",
+      "city": "Mumbai",
+      "country": "India"
+    },
+    {
+      "id": 3,
+      "code": "BLR",
+      "name": "Kempegowda International Airport",
+      "city": "Bengaluru",
+      "country": "India"
+    },
+    {
+      "id": 4,
+      "code": "MAA",
+      "name": "Chennai International Airport",
+      "city": "Chennai",
+      "country": "India"
+    },
+    {
+      "id": 5,
+      "code": "CCU",
+      "name": "Netaji Subhas Chandra Bose International Airport",
+      "city": "Kolkata",
+      "country": "India"
+    },
+    {
+      "id": 6,
+      "code": "HYD",
+      "name": "Rajiv Gandhi International Airport",
+      "city": "Hyderabad",
+      "country": "India"
+    },
+    {
+      "id": 7,
+      "code": "GOI",
+      "name": "Goa International Airport",
+      "city": "Goa",
+      "country": "India"
+    },
+    {
+      "id": 8,
+      "code": "COK",
+      "name": "Cochin International Airport",
+      "city": "Kochi",
+      "country": "India"
+    },
+    {
+      "id": 9,
+      "code": "PNQ",
+      "name": "Pune Airport",
+      "city": "Pune",
+      "country": "India"
+    },
+    {
+      "id": 10,
+      "code": "JAI",
+      "name": "Jaipur International Airport",
+      "city": "Jaipur",
+      "country": "India"
+    },
+    {
+      "id": 11,
+      "code": "DXB",
+      "name": "Dubai International Airport",
+      "city": "Dubai",
+      "country": "UAE"
+    },
+    {
+      "id": 12,
+      "code": "SIN",
+      "name": "Changi Airport",
+      "city": "Singapore",
+      "country": "Singapore"
+    },
+    {
+      "id": 13,
+      "code": "LHR",
+      "name": "Heathrow Airport",
+      "city": "London",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 14,
+      "code": "JFK",
+      "name": "John F. Kennedy International Airport",
+      "city": "New York",
+      "country": "United States"
+    },
+    {
+      "id": 15,
+      "code": "BKK",
+      "name": "Suvarnabhumi Airport",
+      "city": "Bangkok",
+      "country": "Thailand"
+    }
+  ],
+  "airlines": [
+    {
+      "id": 1,
+      "code": "AI",
+      "name": "Air India",
+      "logo": "🇮🇳"
+    },
+    {
+      "id": 2,
+      "code": "6E",
+      "name": "IndiGo",
+      "logo": "✈️"
+    },
+    {
+      "id": 3,
+      "code": "SG",
+      "name": "SpiceJet",
+      "logo": "🌶️"
+    },
+    {
+      "id": 4,
+      "code": "UK",
+      "name": "Vistara",
+      "logo": "⭐"
+    },
+    {
+      "id": 5,
+      "code": "G8",
+      "name": "Go First",
+      "logo": "🔵"
+    },
+    {
+      "id": 6,
+      "code": "QP",
+      "name": "Akasa Air",
+      "logo": "🟠"
+    },
+    {
+      "id": 7,
+      "code": "EK",
+      "name": "Emirates",
+      "logo": "🏜️"
+    },
+    {
+      "id": 8,
+      "code": "SQ",
+      "name": "Singapore Airlines",
+      "logo": "🦁"
+    },
+    {
+      "id": 9,
+      "code": "BA",
+      "name": "British Airways",
+      "logo": "🇬🇧"
+    },
+    {
+      "id": 10,
+      "code": "TG",
+      "name": "Thai Airways",
+      "logo": "🇹🇭"
+    }
+  ],
+  "flights": [
+    {
+      "id": 1,
+      "flightNumber": "6E-201",
+      "airlineId": 2,
+      "originId": 1,
+      "destinationId": 2,
+      "departureTime": "06:00",
+      "arrivalTime": "08:10",
+      "duration": "2h 10m",
+      "durationMinutes": 130,
+      "stops": 0,
+      "stopDetails": [],
+      "aircraft": "Airbus A320neo",
+      "prices": {
+        "economy": 4500,
+        "business": 12500,
+        "first": 0
+      },
+      "seatsAvailable": {
+        "economy": 150,
+        "business": 24,
+        "first": 0
+      },
+      "departureDate": "2027-01-15",
+      "status": "scheduled"
+    },
+    {
+      "id": 2,
+      "flightNumber": "AI-101",
+      "airlineId": 1,
+      "originId": 1,
+      "destinationId": 2,
+      "departureTime": "08:30",
+      "arrivalTime": "10:45",
+      "duration": "2h 15m",
+      "durationMinutes": 135,
+      "stops": 0,
+      "stopDetails": [],
+      "aircraft": "Boeing 777-300ER",
+      "prices": {
+        "economy": 5200,
+        "business": 14800,
+        "first": 32000
+      },
+      "seatsAvailable": {
+        "economy": 200,
+        "business": 48,
+        "first": 8
+      },
+      "departureDate": "2027-01-15",
+      "status": "scheduled"
+    },
+    {
+      "id": 3,
+      "flightNumber": "UK-945",
+      "airlineId": 4,
+      "originId": 1,
+      "destinationId": 3,
+      "departureTime": "07:15",
+      "arrivalTime": "10:00",
+      "duration": "2h 45m",
+      "durationMinutes": 165,
+      "stops": 0,
+      "stopDetails": [],
+      "aircraft": "Airbus A320neo",
+      "prices": {
+        "economy": 5800,
+        "business": 15200,
+        "first": 0
+      },
+      "seatsAvailable": {
+        "economy": 140,
+        "business": 20,
+        "first": 0
+      },
+      "departureDate": "2027-01-15",
+      "status": "scheduled"
+    },
+    {
+      "id": 4,
+      "flightNumber": "SG-121",
+      "airlineId": 3,
+      "originId": 2,
+      "destinationId": 1,
+      "departureTime": "09:00",
+      "arrivalTime": "11:15",
+      "duration": "2h 15m",
+      "durationMinutes": 135,
+      "stops": 0,
+      "stopDetails": [],
+      "aircraft": "Boeing 737 MAX",
+      "prices": {
+        "economy": 3800,
+        "business": 10500,
+        "first": 0
+      },
+      "seatsAvailable": {
+        "economy": 160,
+        "business": 16,
+        "first": 0
+      },
+      "departureDate": "2027-01-15",
+      "status": "scheduled"
+    },
+    {
+      "id": 5,
+      "flightNumber": "6E-305",
+      "airlineId": 2,
+      "originId": 3,
+      "destinationId": 1,
+      "departureTime": "14:30",
+      "arrivalTime": "17:15",
+      "duration": "2h 45m",
+      "durationMinutes": 165,
+      "stops": 0,
+      "stopDetails": [],
+      "aircraft": "Airbus A321neo",
+      "prices": {
+        "economy": 4200,
+        "business": 11800,
+        "first": 0
+      },
+      "seatsAvailable": {
+        "economy": 180,
+        "business": 28,
+        "first": 0
+      },
+      "departureDate": "2027-01-15",
+      "status": "scheduled"
+    },
+    {
+      "id": 6,
+      "flightNumber": "AI-505",
+      "airlineId": 1,
+      "originId": 1,
+      "destinationId": 4,
+      "departureTime": "10:00",
+      "arrivalTime": "12:45",
+      "duration": "2h 45m",
+      "durationMinutes": 165,
+      "stops": 0,
+      "stopDetails": [],
+      "aircraft": "Airbus A320neo",
+      "prices": {
+        "economy": 4800,
+        "business": 13500,
+        "first": 0
+      },
+      "seatsAvailable": {
+        "economy": 150,
+        "business": 24,
+        "first": 0
+      },
+      "departureDate": "2027-01-15",
+      "status": "scheduled"
+    },
+    {
+      "id": 7,
+      "flightNumber": "6E-512",
+      "airlineId": 2,
+      "originId": 2,
+      "destinationId": 3,
+      "departureTime": "16:00",
+      "arrivalTime": "17:30",
+      "duration": "1h 30m",
+      "durationMinutes": 90,
+      "stops": 0,
+      "stopDetails": [],
+      "aircraft": "Airbus A320neo",
+      "prices": {
+        "economy": 3200,
+        "business": 9500,
+        "first": 0
+      },
+      "seatsAvailable": {
+        "economy": 150,
+        "business": 24,
+        "first": 0
+      },
+      "departureDate": "2027-01-15",
+      "status": "scheduled"
+    },
+    {
+      "id": 8,
+      "flightNumber": "QP-110",
+      "airlineId": 6,
+      "originId": 1,
+      "destinationId": 7,
+      "departureTime": "11:30",
+      "arrivalTime": "14:00",
+      "duration": "2h 30m",
+      "durationMinutes": 150,
+      "stops": 0,
+      "stopDetails": [],
+      "aircraft": "Boeing 737 MAX",
+      "prices": {
+        "economy": 5500,
+        "business": 14000,
+        "first": 0
+      },
+      "seatsAvailable": {
+        "economy": 160,
+        "business": 16,
+        "first": 0
+      },
+      "departureDate": "2027-01-15",
+      "status": "scheduled"
+    },
+    {
+      "id": 9,
+      "flightNumber": "AI-863",
+      "airlineId": 1,
+      "originId": 1,
+      "destinationId": 11,
+      "departureTime": "02:30",
+      "arrivalTime": "05:00",
+      "duration": "3h 30m",
+      "durationMinutes": 210,
+      "stops": 0,
+      "stopDetails": [],
+      "aircraft": "Boeing 787-9",
+      "prices": {
+        "economy": 18500,
+        "business": 52000,
+        "first": 95000
+      },
+      "seatsAvailable": {
+        "economy": 220,
+        "business": 36,
+        "first": 8
+      },
+      "departureDate": "2027-01-15",
+      "status": "scheduled"
+    },
+    {
+      "id": 10,
+      "flightNumber": "EK-511",
+      "airlineId": 7,
+      "originId": 11,
+      "destinationId": 1,
+      "departureTime": "10:15",
+      "arrivalTime": "15:30",
+      "duration": "3h 45m",
+      "durationMinutes": 225,
+      "stops": 0,
+      "stopDetails": [],
+      "aircraft": "Airbus A380",
+      "prices": {
+        "economy": 22000,
+        "business": 65000,
+        "first": 125000
+      },
+      "seatsAvailable": {
+        "economy": 400,
+        "business": 76,
+        "first": 14
+      },
+      "departureDate": "2027-01-15",
+      "status": "scheduled"
+    },
+    {
+      "id": 11,
+      "flightNumber": "SQ-403",
+      "airlineId": 8,
+      "originId": 2,
+      "destinationId": 12,
+      "departureTime": "23:30",
+      "arrivalTime": "07:30",
+      "duration": "5h 30m",
+      "durationMinutes": 330,
+      "stops": 0,
+      "stopDetails": [],
+      "aircraft": "Airbus A350-900",
+      "prices": {
+        "economy": 25000,
+        "business": 72000,
+        "first": 140000
+      },
+      "seatsAvailable": {
+        "economy": 240,
+        "business": 42,
+        "first": 6
+      },
+      "departureDate": "2027-01-16",
+      "status": "scheduled"
+    },
+    {
+      "id": 12,
+      "flightNumber": "AI-111",
+      "airlineId": 1,
+      "originId": 1,
+      "destinationId": 13,
+      "departureTime": "14:00",
+      "arrivalTime": "19:30",
+      "duration": "9h 30m",
+      "durationMinutes": 570,
+      "stops": 0,
+      "stopDetails": [],
+      "aircraft": "Boeing 777-300ER",
+      "prices": {
+        "economy": 42000,
+        "business": 125000,
+        "first": 285000
+      },
+      "seatsAvailable": {
+        "economy": 200,
+        "business": 48,
+        "first": 8
+      },
+      "departureDate": "2027-01-16",
+      "status": "scheduled"
+    },
+    {
+      "id": 13,
+      "flightNumber": "6E-777",
+      "airlineId": 2,
+      "originId": 1,
+      "destinationId": 5,
+      "departureTime": "12:00",
+      "arrivalTime": "14:15",
+      "duration": "2h 15m",
+      "durationMinutes": 135,
+      "stops": 0,
+      "stopDetails": [],
+      "aircraft": "Airbus A320neo",
+      "prices": {
+        "economy": 4100,
+        "business": 11000,
+        "first": 0
+      },
+      "seatsAvailable": {
+        "economy": 150,
+        "business": 24,
+        "first": 0
+      },
+      "departureDate": "2027-01-15",
+      "status": "scheduled"
+    },
+    {
+      "id": 14,
+      "flightNumber": "SG-185",
+      "airlineId": 3,
+      "originId": 6,
+      "destinationId": 1,
+      "departureTime": "05:45",
+      "arrivalTime": "08:00",
+      "duration": "2h 15m",
+      "durationMinutes": 135,
+      "stops": 0,
+      "stopDetails": [],
+      "aircraft": "Boeing 737-800",
+      "prices": {
+        "economy": 3600,
+        "business": 9800,
+        "first": 0
+      },
+      "seatsAvailable": {
+        "economy": 140,
+        "business": 16,
+        "first": 0
+      },
+      "departureDate": "2027-01-15",
+      "status": "scheduled"
+    },
+    {
+      "id": 15,
+      "flightNumber": "AI-680",
+      "airlineId": 1,
+      "originId": 1,
+      "destinationId": 2,
+      "departureTime": "18:00",
+      "arrivalTime": "20:15",
+      "duration": "2h 15m",
+      "durationMinutes": 135,
+      "stops": 1,
+      "stopDetails": [
+        "JAI"
+      ],
+      "aircraft": "Airbus A320neo",
+      "prices": {
+        "economy": 3900,
+        "business": 11500,
+        "first": 0
+      },
+      "seatsAvailable": {
+        "economy": 149,
+        "business": 24,
+        "first": 0
+      },
+      "departureDate": "2027-01-15",
+      "status": "scheduled",
+      "airline": {
+        "id": 1,
+        "code": "AI",
+        "name": "Air India",
+        "logo": "🇮🇳"
+      },
+      "origin": {
+        "id": 1,
+        "code": "DEL",
+        "name": "Indira Gandhi International Airport",
+        "city": "New Delhi",
+        "country": "India"
+      },
+      "destination": {
+        "id": 2,
+        "code": "BOM",
+        "name": "Chhatrapati Shivaji Maharaj International Airport",
+        "city": "Mumbai",
+        "country": "India"
+      }
+    },
+    {
+      "id": 16,
+      "flightNumber": "UK-823",
+      "airlineId": 4,
+      "originId": 2,
+      "destinationId": 1,
+      "departureTime": "20:30",
+      "arrivalTime": "22:50",
+      "duration": "2h 20m",
+      "durationMinutes": 140,
+      "stops": 0,
+      "stopDetails": [],
+      "aircraft": "Boeing 787-9",
+      "prices": {
+        "economy": 5600,
+        "business": 16000,
+        "first": 35000
+      },
+      "seatsAvailable": {
+        "economy": 200,
+        "business": 32,
+        "first": 8
+      },
+      "departureDate": "2027-01-20",
+      "status": "scheduled"
+    },
+    {
+      "id": 17,
+      "flightNumber": "6E-432",
+      "airlineId": 2,
+      "originId": 4,
+      "destinationId": 2,
+      "departureTime": "13:00",
+      "arrivalTime": "15:00",
+      "duration": "2h 00m",
+      "durationMinutes": 120,
+      "stops": 0,
+      "stopDetails": [],
+      "aircraft": "Airbus A321neo",
+      "prices": {
+        "economy": 3500,
+        "business": 9800,
+        "first": 0
+      },
+      "seatsAvailable": {
+        "economy": 180,
+        "business": 28,
+        "first": 0
+      },
+      "departureDate": "2027-01-15",
+      "status": "scheduled"
+    },
+    {
+      "id": 18,
+      "flightNumber": "TG-316",
+      "airlineId": 10,
+      "originId": 1,
+      "destinationId": 15,
+      "departureTime": "00:30",
+      "arrivalTime": "06:30",
+      "duration": "4h 30m",
+      "durationMinutes": 270,
+      "stops": 0,
+      "stopDetails": [],
+      "aircraft": "Boeing 777-200",
+      "prices": {
+        "economy": 15000,
+        "business": 42000,
+        "first": 85000
+      },
+      "seatsAvailable": {
+        "economy": 240,
+        "business": 42,
+        "first": 10
+      },
+      "departureDate": "2027-01-16",
+      "status": "scheduled"
+    },
+    {
+      "id": 19,
+      "flightNumber": "G8-301",
+      "airlineId": 5,
+      "originId": 1,
+      "destinationId": 8,
+      "departureTime": "07:00",
+      "arrivalTime": "10:15",
+      "duration": "3h 15m",
+      "durationMinutes": 195,
+      "stops": 0,
+      "stopDetails": [],
+      "aircraft": "Airbus A320neo",
+      "prices": {
+        "economy": 4800,
+        "business": 13000,
+        "first": 0
+      },
+      "seatsAvailable": {
+        "economy": 150,
+        "business": 20,
+        "first": 0
+      },
+      "departureDate": "2027-01-15",
+      "status": "scheduled"
+    },
+    {
+      "id": 20,
+      "flightNumber": "AI-990",
+      "airlineId": 1,
+      "originId": 2,
+      "destinationId": 14,
+      "departureTime": "01:00",
+      "arrivalTime": "07:00",
+      "duration": "16h 00m",
+      "durationMinutes": 960,
+      "stops": 1,
+      "stopDetails": [
+        "DEL"
+      ],
+      "aircraft": "Boeing 777-300ER",
+      "prices": {
+        "economy": 55000,
+        "business": 165000,
+        "first": 350000
+      },
+      "seatsAvailable": {
+        "economy": 200,
+        "business": 48,
+        "first": 8
+      },
+      "departureDate": "2027-01-16",
+      "status": "scheduled"
+    },
+    {
+      "id": 21,
+      "flightNumber": "6E-901",
+      "airlineId": 2,
+      "originId": 1,
+      "destinationId": 9,
+      "departureTime": "15:00",
+      "arrivalTime": "16:30",
+      "duration": "1h 30m",
+      "durationMinutes": 90,
+      "stops": 0,
+      "stopDetails": [],
+      "aircraft": "Airbus A320neo",
+      "prices": {
+        "economy": 2800,
+        "business": 8500,
+        "first": 0
+      },
+      "seatsAvailable": {
+        "economy": 150,
+        "business": 24,
+        "first": 0
+      },
+      "departureDate": "2027-01-15",
+      "status": "scheduled"
+    },
+    {
+      "id": 22,
+      "flightNumber": "SG-555",
+      "airlineId": 3,
+      "originId": 1,
+      "destinationId": 10,
+      "departureTime": "17:00",
+      "arrivalTime": "18:10",
+      "duration": "1h 10m",
+      "durationMinutes": 70,
+      "stops": 0,
+      "stopDetails": [],
+      "aircraft": "Boeing 737-800",
+      "prices": {
+        "economy": 2500,
+        "business": 7500,
+        "first": 0
+      },
+      "seatsAvailable": {
+        "economy": 140,
+        "business": 16,
+        "first": 0
+      },
+      "departureDate": "2027-01-15",
+      "status": "scheduled"
+    },
+    {
+      "id": 23,
+      "flightNumber": "BA-138",
+      "airlineId": 9,
+      "originId": 13,
+      "destinationId": 2,
+      "departureTime": "21:00",
+      "arrivalTime": "11:30",
+      "duration": "9h 30m",
+      "durationMinutes": 570,
+      "stops": 0,
+      "stopDetails": [],
+      "aircraft": "Boeing 787-9",
+      "prices": {
+        "economy": 45000,
+        "business": 135000,
+        "first": 300000
+      },
+      "seatsAvailable": {
+        "economy": 180,
+        "business": 36,
+        "first": 8
+      },
+      "departureDate": "2027-01-16",
+      "status": "scheduled"
+    },
+    {
+      "id": 24,
+      "flightNumber": "6E-100",
+      "airlineId": 2,
+      "originId": 2,
+      "destinationId": 1,
+      "departureTime": "06:30",
+      "arrivalTime": "08:40",
+      "duration": "2h 10m",
+      "durationMinutes": 130,
+      "stops": 0,
+      "stopDetails": [],
+      "aircraft": "Airbus A320neo",
+      "prices": {
+        "economy": 4300,
+        "business": 12000,
+        "first": 0
+      },
+      "seatsAvailable": {
+        "economy": 0,
+        "business": 0,
+        "first": 0
+      },
+      "departureDate": "2027-01-15",
+      "status": "scheduled"
+    },
+    {
+      "id": 25,
+      "flightNumber": "AI-302",
+      "airlineId": 1,
+      "originId": 3,
+      "destinationId": 2,
+      "departureTime": "19:00",
+      "arrivalTime": "20:30",
+      "duration": "1h 30m",
+      "durationMinutes": 90,
+      "stops": 0,
+      "stopDetails": [],
+      "aircraft": "Airbus A320neo",
+      "prices": {
+        "economy": 3800,
+        "business": 10500,
+        "first": 0
+      },
+      "seatsAvailable": {
+        "economy": 150,
+        "business": 24,
+        "first": 0
+      },
+      "departureDate": "2027-01-20",
+      "status": "scheduled"
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "pnr": "SKY7A3B2",
+      "flightId": 1,
+      "passengers": [
+        {
+          "firstName": "Rahul",
+          "lastName": "Sharma",
+          "age": 34,
+          "gender": "male",
+          "email": "rahul.sharma@email.com",
+          "phone": "+919876543210",
+          "seatNumber": "12A"
+        }
+      ],
+      "class": "economy",
+      "totalAmount": 5310,
+      "baseFare": 4500,
+      "taxes": 540,
+      "fees": 270,
+      "status": "confirmed",
+      "bookingDate": "2027-01-10T14:30:00Z",
+      "paymentStatus": "paid",
+      "paymentId": "TXN-20270110-001"
+    },
+    {
+      "id": 2,
+      "pnr": "SKY9D4E1",
+      "flightId": 9,
+      "passengers": [
+        {
+          "firstName": "Priya",
+          "lastName": "Patel",
+          "age": 28,
+          "gender": "female",
+          "email": "priya@email.com",
+          "phone": "+919876543211",
+          "seatNumber": "2A"
+        },
+        {
+          "firstName": "Amit",
+          "lastName": "Patel",
+          "age": 32,
+          "gender": "male",
+          "email": "amit@email.com",
+          "phone": "+919876543212",
+          "seatNumber": "2B"
+        }
+      ],
+      "class": "first",
+      "totalAmount": 214700,
+      "baseFare": 190000,
+      "taxes": 19000,
+      "fees": 5700,
+      "status": "confirmed",
+      "bookingDate": "2027-01-08T09:15:00Z",
+      "paymentStatus": "paid",
+      "paymentId": "TXN-20270108-001"
+    },
+    {
+      "id": 3,
+      "pnr": "SKY2F8G5",
+      "flightId": 3,
+      "passengers": [
+        {
+          "firstName": "Ananya",
+          "lastName": "Verma",
+          "age": 42,
+          "gender": "female",
+          "email": "ananya.v@email.com",
+          "phone": "+919876543213",
+          "seatNumber": "7C"
+        }
+      ],
+      "class": "business",
+      "totalAmount": 17176,
+      "baseFare": 15200,
+      "taxes": 1520,
+      "fees": 456,
+      "status": "cancelled",
+      "bookingDate": "2027-01-05T11:00:00Z",
+      "paymentStatus": "refunded",
+      "paymentId": "TXN-20270105-001"
+    },
+    {
+      "pnr": "SKYPUMRW",
+      "flightId": 15,
+      "passengers": [
+        {
+          "firstName": "Rahul",
+          "lastName": "P",
+          "age": 21,
+          "gender": "male",
+          "email": "rahul07@gmail.com",
+          "phone": "8625685746",
+          "seatNumber": "12E"
+        }
+      ],
+      "class": "economy",
+      "totalAmount": 4854,
+      "baseFare": 4200,
+      "taxes": 504,
+      "fees": 150,
+      "status": "confirmed",
+      "bookingDate": "2026-11-18T07:52:38.691Z",
+      "paymentStatus": "paid",
+      "paymentId": "TXN-20261118-526571",
+      "id": 4
+    }
+  ],
+  "payments": [
+    {
+      "id": 1,
+      "transactionId": "TXN-20270110-001",
+      "bookingId": 1,
+      "amount": 5310,
+      "currency": "INR",
+      "status": "success",
+      "method": "card",
+      "cardLast4": "4242",
+      "timestamp": "2027-01-10T14:30:00Z"
+    },
+    {
+      "id": 2,
+      "transactionId": "TXN-20270108-001",
+      "bookingId": 2,
+      "amount": 214700,
+      "currency": "INR",
+      "status": "success",
+      "method": "card",
+      "cardLast4": "1234",
+      "timestamp": "2027-01-08T09:15:00Z"
+    },
+    {
+      "id": 3,
+      "transactionId": "TXN-20270105-001",
+      "bookingId": 3,
+      "amount": 17176,
+      "currency": "INR",
+      "status": "refunded",
+      "method": "card",
+      "cardLast4": "5678",
+      "timestamp": "2027-01-05T11:00:00Z"
+    },
+    {
+      "transactionId": "TXN-20261118-526571",
+      "bookingId": 0,
+      "amount": 4854,
+      "currency": "INR",
+      "status": "success",
+      "method": "Credit/Debit Card",
+      "cardLast4": "7890",
+      "timestamp": "2026-11-18T07:52:38.640Z",
+      "id": 4
+    }
+  ],
+  "seatMaps": [
+    {
+      "id": 1,
+      "aircraft": "Airbus A320neo",
+      "rows": 30,
+      "seatsPerRow": 6,
+      "layout": "ABC-DEF",
+      "firstClass": {
+        "rows": [],
+        "price": 0
+      },
+      "business": {
+        "rows": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "price": 500
+      },
+      "economy": {
+        "rows": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "price": 0
+      },
+      "emergencyExitRows": [
+        12,
+        13
+      ],
+      "extraLegroom": [
+        12,
+        13
+      ],
+      "occupiedSeats": [
+        "1A",
+        "1B",
+        "3A",
+        "3B",
+        "3C",
+        "7A",
+        "7B",
+        "8D",
+        "8E",
+        "8F",
+        "10A",
+        "12A",
+        "12F",
+        "15C",
+        "15D",
+        "20A",
+        "20B",
+        "20C",
+        "25E",
+        "25F"
+      ]
+    },
+    {
+      "id": 2,
+      "aircraft": "Boeing 777-300ER",
+      "rows": 40,
+      "seatsPerRow": 9,
+      "layout": "ABC-DEF-GHJ",
+      "firstClass": {
+        "rows": [
+          1,
+          2,
+          3
+        ],
+        "price": 2000
+      },
+      "business": {
+        "rows": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "price": 800
+      },
+      "economy": {
+        "rows": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "price": 0
+      },
+      "emergencyExitRows": [
+        20,
+        21
+      ],
+      "extraLegroom": [
+        20,
+        21
+      ],
+      "occupiedSeats": [
+        "1A",
+        "2A",
+        "2B",
+        "4A",
+        "4B",
+        "4C",
+        "5D",
+        "11A",
+        "11B",
+        "11C",
+        "15G",
+        "15H",
+        "15J",
+        "20A",
+        "20C",
+        "25D",
+        "30G",
+        "35A",
+        "35B"
+      ]
+    },
+    {
+      "id": 3,
+      "aircraft": "Airbus A380",
+      "rows": 50,
+      "seatsPerRow": 10,
+      "layout": "ABC-DEFG-HJK",
+      "firstClass": {
+        "rows": [
+          1,
+          2,
+          3
+        ],
+        "price": 5000
+      },
+      "business": {
+        "rows": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "price": 2000
+      },
+      "economy": {
+        "rows": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50
+        ],
+        "price": 0
+      },
+      "emergencyExitRows": [
+        25,
+        26
+      ],
+      "extraLegroom": [
+        25,
+        26
+      ],
+      "occupiedSeats": [
+        "1A",
+        "1B",
+        "2A",
+        "4A",
+        "4B",
+        "4C",
+        "5D",
+        "5E",
+        "13A",
+        "13B",
+        "13C",
+        "15H",
+        "20A",
+        "20D",
+        "25A",
+        "30J",
+        "35K",
+        "40A",
+        "45C",
+        "50G"
+      ]
+    },
+    {
+      "id": 4,
+      "aircraft": "Airbus A321neo",
+      "rows": 34,
+      "seatsPerRow": 6,
+      "layout": "ABC-DEF",
+      "firstClass": {
+        "rows": [],
+        "price": 0
+      },
+      "business": {
+        "rows": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "price": 600
+      },
+      "economy": {
+        "rows": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ],
+        "price": 0
+      },
+      "emergencyExitRows": [
+        14,
+        15
+      ],
+      "extraLegroom": [
+        14,
+        15
+      ],
+      "occupiedSeats": [
+        "1A",
+        "1C",
+        "2D",
+        "2F",
+        "7A",
+        "10B",
+        "10C",
+        "15D",
+        "20A",
+        "25F",
+        "30A",
+        "30B"
+      ]
+    },
+    {
+      "id": 5,
+      "aircraft": "Boeing 737 MAX",
+      "rows": 28,
+      "seatsPerRow": 6,
+      "layout": "ABC-DEF",
+      "firstClass": {
+        "rows": [],
+        "price": 0
+      },
+      "business": {
+        "rows": [
+          1,
+          2,
+          3
+        ],
+        "price": 400
+      },
+      "economy": {
+        "rows": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28
+        ],
+        "price": 0
+      },
+      "emergencyExitRows": [
+        12
+      ],
+      "extraLegroom": [
+        12
+      ],
+      "occupiedSeats": [
+        "1A",
+        "1B",
+        "2C",
+        "5A",
+        "8D",
+        "12A",
+        "12F",
+        "18C",
+        "22A",
+        "25E"
+      ]
+    },
+    {
+      "id": 6,
+      "aircraft": "Boeing 737-800",
+      "rows": 28,
+      "seatsPerRow": 6,
+      "layout": "ABC-DEF",
+      "firstClass": {
+        "rows": [],
+        "price": 0
+      },
+      "business": {
+        "rows": [
+          1,
+          2,
+          3
+        ],
+        "price": 350
+      },
+      "economy": {
+        "rows": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28
+        ],
+        "price": 0
+      },
+      "emergencyExitRows": [
+        11
+      ],
+      "extraLegroom": [
+        11
+      ],
+      "occupiedSeats": [
+        "1A",
+        "2A",
+        "2B",
+        "6C",
+        "10D",
+        "15A",
+        "20F",
+        "25B"
+      ]
+    },
+    {
+      "id": 7,
+      "aircraft": "Boeing 787-9",
+      "rows": 36,
+      "seatsPerRow": 9,
+      "layout": "ABC-DEF-GHJ",
+      "firstClass": {
+        "rows": [
+          1,
+          2
+        ],
+        "price": 1500
+      },
+      "business": {
+        "rows": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "price": 700
+      },
+      "economy": {
+        "rows": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36
+        ],
+        "price": 0
+      },
+      "emergencyExitRows": [
+        18,
+        19
+      ],
+      "extraLegroom": [
+        18,
+        19
+      ],
+      "occupiedSeats": [
+        "1A",
+        "1B",
+        "3A",
+        "3C",
+        "5D",
+        "9A",
+        "9B",
+        "12G",
+        "15H",
+        "20A",
+        "25D",
+        "30J"
+      ]
+    },
+    {
+      "id": 8,
+      "aircraft": "Airbus A350-900",
+      "rows": 40,
+      "seatsPerRow": 9,
+      "layout": "ABC-DEF-GHJ",
+      "firstClass": {
+        "rows": [
+          1,
+          2
+        ],
+        "price": 3000
+      },
+      "business": {
+        "rows": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "price": 1200
+      },
+      "economy": {
+        "rows": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "price": 0
+      },
+      "emergencyExitRows": [
+        22,
+        23
+      ],
+      "extraLegroom": [
+        22,
+        23
+      ],
+      "occupiedSeats": [
+        "1A",
+        "2B",
+        "3C",
+        "5A",
+        "10D",
+        "15G",
+        "20A",
+        "25H",
+        "30J",
+        "35A"
+      ]
+    },
+    {
+      "id": 9,
+      "aircraft": "Boeing 777-200",
+      "rows": 38,
+      "seatsPerRow": 9,
+      "layout": "ABC-DEF-GHJ",
+      "firstClass": {
+        "rows": [
+          1,
+          2
+        ],
+        "price": 1800
+      },
+      "business": {
+        "rows": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "price": 900
+      },
+      "economy": {
+        "rows": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38
+        ],
+        "price": 0
+      },
+      "emergencyExitRows": [
+        20
+      ],
+      "extraLegroom": [
+        20
+      ],
+      "occupiedSeats": [
+        "1A",
+        "1C",
+        "3D",
+        "5G",
+        "10A",
+        "15B",
+        "20C",
+        "25D",
+        "30A",
+        "35H"
+      ]
+    }
+  ]
+}
